@@ -1,9 +1,9 @@
-import Hero from '@/components/hero'
-import Products from '@/components/products'
-import Features from '@/components/features'
-import Testimonials from '@/components/testimonials'
-import Pricing from '@/components/pricing'
-import Contact from '@/components/contact'
+import Hero from '@/components/Hero'
+import Products from '@/components/Products'
+import Features from '@/components/Features'
+import Testimonials from '@/components/Testimonials'
+import Pricing from '@/components/Pricing'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
