@@ -10,7 +10,7 @@ export default function Hero() {
                         <span className="text-primary">AI技术</span>驱动的<br />一站式运营解决方案
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 max-w-lg">
-                    专注于企业运营的转化与交付，做所有商家都能用的AI智能运营工具，让天下没有难做的运营
+                    专注于企业从宣传获客到转化交付的全链路解决方案
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button size="lg" className="text-md">
