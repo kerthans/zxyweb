@@ -5,29 +5,28 @@ const pricingPlans = [
     {
         id: 1,
         name: "初创版",
-        price: "299",
+        price: "19,800",
         description: "适合初创企业和小型团队的基础AI营销解决方案",
         features: [
-            "每月10,000字AI内容生成",
-            "基础社交媒体管理工具",
-            "简单数据分析仪表板",
-            "电子邮件支持",
-            "1个用户账号"
+            "AI 多语言客服系统",
+            "企业个性化工作流搭建",
+            "支持企业私有知识库",
+            "多渠道接入(官网/微信/APP)",
+            "含年度系统维护与基础功能升级服务"
         ],
         isPopular: false
     },
     {
         id: 2,
         name: "专业版",
-        price: "899",
+        price: "39,800",
         description: "适合成长型企业的全功能AI营销平台",
         features: [
-            "每月50,000字AI内容生成",
-            "高级社交媒体管理和分析",
-            "完整数据分析和报告",
-            "营销活动优化建议",
-            "优先电子邮件和聊天支持",
-            "5个用户账号"
+            "行业定制大模型",
+            "多模态交互",
+            "企业知识库自动更新",
+            "全渠道覆盖",
+            "每月有系统维护额度",
         ],
         isPopular: true
     },
@@ -37,13 +36,11 @@ const pricingPlans = [
         price: "定制",
         description: "为大型企业和团队定制的企业级AI营销解决方案",
         features: [
-            "无限AI内容生成",
-            "全渠道营销管理工具",
-            "高级数据分析和预测模型",
-            "定制化营销策略建议",
-            "专属客户成功经理",
-            "无限用户账号",
-            "API集成支持"
+            "企业专属AI大模型训练",
+            "全模态交互支持",
+            "跨域智能工作流引擎",
+            "全球节点私有化部署",
+            "战略级专属服务",
         ],
         isPopular: false
     }
@@ -79,7 +76,7 @@ export default function Pricing() {
                                 <CardTitle className="text-2xl">{plan.name}</CardTitle>
                                 <div className="mt-2">
                                     <span className="text-4xl font-bold">¥{plan.price}</span>
-                                    {plan.price !== "定制" && <span className="text-gray-500 ml-2">/月</span>}
+                                    {plan.price !== "定制" && <span className="text-gray-500 ml-2">/每套/每年</span>}
                                 </div>
                                 <CardDescription className="mt-3 text-gray-600">{plan.description}</CardDescription>
                             </CardHeader>
