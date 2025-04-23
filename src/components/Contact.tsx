@@ -65,7 +65,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold">电子邮件</h4>
-                                    <p className="text-gray-600">contact@zxyweb.com</p>
+                                    <p className="text-gray-600">ZXYtech@126.com</p>
                                 </div>
                             </div>
 
@@ -77,7 +77,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold">电话</h4>
-                                    <p className="text-gray-600">+86 123 4567 8910</p>
+                                    <p className="text-gray-600">+86 151 6505 0527</p>
                                 </div>
                             </div>
 
@@ -90,7 +90,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold">地址</h4>
-                                    <p className="text-gray-600">北京市朝阳区科技园区88号</p>
+                                    <p className="text-gray-600">长沙市望城经济技术开发区腾飞路一段39号</p>
                                 </div>
                             </div>
                         </div>

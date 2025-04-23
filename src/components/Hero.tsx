@@ -21,7 +21,7 @@ export default function Hero() {
                         </Button>
                     </div>
                     <div className="pt-6">
-                        <p className="text-sm text-gray-500">已被超过500家企业信赖</p>
+                        <p className="text-sm text-gray-500">已被多家知名企业信赖</p>
                         <div className="flex flex-wrap gap-6 items-center mt-3">
                             {['山东美旭信息科技有限公司', '泰山体育产业集团有限公司', '天津凯世通阀门制造有限公司', '哈尔滨隆港商业管理有限公司'].map((brand, index) => (
                                 <div key={index} className="text-gray-400 font-semibold">
